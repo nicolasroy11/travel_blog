@@ -1,0 +1,111 @@
+/* Color References
+
+Green: #79b044
+Salmon: #dd5638
+Blue Gray: #3e4249
+
+*/
+
+/* ===General=== */
+
+body 
+{
+	font-family: 'Quicksand', Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+/*buffer space between the nav-bar and content of top section*/
+.top-buffer
+{
+	width: 100%;
+	height: 70px;
+}
+
+/*These will override Bootstrap font sizing, but we want to do so to match our design*/
+h1,h2,h3,h4,h5,h6
+{
+	-webkit-font-smoothing: antialiased;	/*prevents h text from smudging due to resolution issues*/
+	text-rendering: optimizelegibility;
+}
+
+hr 
+{	
+	background: black;
+	height: 50px;  
+}
+
+#hero
+{
+	background: url('../img/air.jpg') top repeat fixed;
+	background-size: cover;	/*ensures that the background will shrink when the view is shrunk or on a smaller device*/
+}
+
+#egypt
+{
+	background: url('../img/mosque.jpg') 50% center repeat fixed;
+	background-size: cover;	/*ensures that the background will shrink when the view is shrunk or on a smaller device*/
+}
+
+.test
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: rgba(255,255,255,0.8);
+	min-height: 250px;
+	padding: 20px;
+	color: black;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;	/*prevents h text from smudging due to resolution issues*/
+	text-rendering: optimizelegibility;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+}
+
+.navbar
+{
+    background: rgba(0,0,0,0.5);
+}
+
+/*============ FOOTER ================*/
+
+footer
+{
+	background: rgba(0,0,0,0.8);
+	color: black;
+	padding: 20px 0 10px;
+	font-size: 12px;
+	bottom: 0px;
+}
+
+footer p
+{
+	margin: 0;
+}
+
+footer a:link, footer a:visited
+{
+	color: white;
+}
+
+footer a:hover
+{
+	color: #00ffff;
+}
+
+footer li.signup-link a:hover
+{
+	font-weight: bold;
+}
+
+footer .dropdown-menu a
+{
+	color: #ffffff;
+}
+
+footer .dropdown-menu
+{
+    background-color: rgba(0,0,0,0.8);
+    color: #ffffff;
+}
